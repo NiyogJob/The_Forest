@@ -1,0 +1,186 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  
+    /* The image used */
+    background-image: url("resources/background.jpg");
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    max-width: 100%;
+  }
+
+  .titleword{
+      color: azure;
+      font-family: 'Pacifico', cursive;
+      padding-left: 5%;
+      font-size: 300%;
+      
+  }
+
+  .soundcontroldiv{
+      
+      position: relative;
+      display: inline-block;
+      
+      padding-top: 5%;
+      margin-left: 5%;
+  }
+
+  .play{
+    
+    position: relative;
+    max-width: 100%;
+    width: 50%;
+    
+  }
+
+    .silent{
+  
+     position: absolute;
+     width: 50%;
+     
+          visibility: hidden;
+     
+    }
+
+  #butterfly_moving {
+    width: 50px;
+    height:50px;
+    position:absolute;
+    }
+    #butterfly_many{
+        position: absolute;
+        width: 200;
+    }
+
+  #butterfly_moving{
+      position: absolute;
+  }
+
+  
+.parentdiv_animal{
+    position: relative;
+    display: inline-block;
+}
+
+
+#my_animal_rotate{
+    
+    
+    width: 60%;
+    margin-left: 10%;
+    position: relative;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+
+
+
+#my_animal_button{
+
+    
+    position: absolute;
+    top: 6%;
+    right: 20%;
+   
+    
+    /*left: 9.8%;*/
+    width: 50%;
+    max-width: 100%;
+    
+}
+
+.parentdiv_plant{
+    position: relative;
+    display: inline-block;
+}
+#my_plant_button{
+
+
+    position: absolute;
+    top: 6%;
+    right: 20%;
+   
+    
+    /*left: 9.8%;*/
+    width: 50%;
+    max-width: 100%;
+    
+}
+#my_plant_rotate{
+  
+    width: 60%;
+    margin-left: 10%;
+    position: relative;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+
+.parentdiv_bird{
+    position: relative;
+    display: inline-block;
+}
+
+#my_bird_button{
+
+
+    
+    position: absolute;
+    top: 6%;
+    right: 20%;
+   
+    
+    /*left: 9.8%;*/
+    width: 50%;
+    max-width: 100%;
+    
+}
+#my_bird_rotate{
+    
+    
+    width: 60%;
+    margin-left: 10%;
+    position: relative;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+
+.species_div{
+    margin-top: 4%;
+    position: relative;
+    
+}
+
+
+
+.column {
+    display: table-cell;
+text-align: center;
+vertical-align: middle;
+
+
+   
+}
+
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
