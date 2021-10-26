@@ -16,6 +16,8 @@ body, html {
    
   }
 
+  
+
   .headerdiv{
       position: fixed;
       z-index: 5;
@@ -106,7 +108,18 @@ body, html {
     max-width: 100%;
     
 }
-
+#animalcirclediv {
+    background: lightblue;
+    border-radius: 50%;
+    width: 14.5rem;
+    height: 14.5rem;
+    display: none;
+    position: absolute;
+    top: 6%;
+   
+    left: 30%;
+   
+}
 .parentdiv_plant{
     position: relative;
     display: inline-block;
