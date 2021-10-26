@@ -111,8 +111,8 @@ body, html {
 #animalcirclediv {
     background: lightblue;
     border-radius: 50%;
-    width: 14.5rem;
-    height: 14.5rem;
+    /*width: 14.5rem;
+    height: 14.5rem;*/
     display: none;
     position: absolute;
     top: 6%;
