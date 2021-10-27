@@ -69,6 +69,14 @@
             <img src="resources/birds_loading.png" id = "my_bird_rotate" onclick = "circle_bird();"  >
             <img src="resources/bird_button.png" id = "my_bird_button" onclick = "circle_bird();"  >
             <div id="birdcirclediv"></div>
+
+            <img src="resources/close_btn.png" id = "bird_close_button" onclick = "bird_closeall();" >
+            <img src="resources/hornbill.png" id = "bird1_icon" onclick = "" >
+            <img src="resources/cerulean_warbler.png" id = "bird2_icon" onclick = "" >
+            <img src="resources/parrot_bill.png" id = "bird3_icon" onclick = "" >
+            <img src="resources/blackbacked_woodpecker-modified.png" id = "bird4_icon" onclick = "" >
+            <img src="resources/scarlet_tanager.png" id = "bird5_icon" onclick = "" >
+            <img src="resources/ruffed_grouse.png" id = "bird6_icon" onclick = "" >
             </div>
         </div>  
 
@@ -146,6 +154,20 @@
               
                }
 
+               function bird_closeall() {
+                 
+
+                 $("#bird_close_button").fadeOut("slow");
+                         $("#bird1_icon").fadeOut("slow");
+                         $("#bird2_icon").fadeOut("slow");                         
+                         $("#bird3_icon").fadeOut("slow");
+                         $("#bird4_icon").fadeOut("slow")
+                         $("#bird5_icon").fadeOut("slow");
+                         $("#bird6_icon").fadeOut("slow");
+                         $("#birdcirclediv").slideUp("slow");
+              
+               }
+
 
                 
 
@@ -189,10 +211,17 @@
                   play();
                   
                   //document.getElementById('circle').style.visibility = "visible";
-                  $("#birdcirclediv").width( $("#my_animal_button").width());
-                  $("#birdcirclediv").height( $("#my_animal_button").height());
+                  $("#birdcirclediv").width( $("#my_bird_button").width());
+                  $("#birdcirclediv").height( $("#my_bird_button").height());
                   $("#birdcirclediv").slideDown("slow");
                   
+                  setTimeout(() => { $("#bird_close_button").fadeIn("slow");}, 1000)
+                          setTimeout(() => { $("#bird1_icon").fadeIn("slow");}, 1100)
+                          setTimeout(() => { $("#bird2_icon").fadeIn("slow");}, 1200)                   
+                          setTimeout(() => { $("#bird3_icon").fadeIn("slow");}, 1300)
+                          setTimeout(() => {$("#bird4_icon").fadeIn("slow")}, 1400)
+                          setTimeout(() => {$("#bird5_icon").fadeIn("slow");}, 1500)
+                          setTimeout(() => {$("#bird6_icon").fadeIn("slow");}, 1600)
                 }
 
                 

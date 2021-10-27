@@ -226,6 +226,14 @@ body, html {
     top: 40%;
 }
 
+#bird_close_button{
+    display: none;
+    position: absolute;
+    width: 10%;
+    left: 50%;
+    top: 40%;
+}
+
 #tiger_icon{
     display: none;
     position: absolute;
@@ -313,6 +321,53 @@ body, html {
     top: 61%;
 }
 #plant6_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 57%;
+    top: 60%;
+}
+
+#bird1_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 33%;
+    top: 40%;
+}
+
+#bird2_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 39%;
+    top: 16%;
+}
+
+#bird3_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 54%;
+    top: 14%;
+}
+
+#bird4_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 64%;
+    top: 36%;
+}
+
+#bird5_icon{
+    display: none;
+    position: absolute;
+    width: 13%;
+    left: 41%;
+    top: 61%;
+}
+#bird6_icon{
     display: none;
     position: absolute;
     width: 13%;
