@@ -45,11 +45,86 @@
 
             
             <img src="resources/close_btn.png" id = "animal_close_button" onclick = "animal_closeall();" >
-            <img src="resources/lion.png" id = "lion_icon" onclick = "" >
-            <img src="resources/tiger.png" id = "tiger_icon" onclick = "" >
-            <img src="resources/leopard.png" id = "leopard_icon" onclick = "" >
-            <img src="resources/deer.png" id = "deer_icon" onclick = "" >
-            <img src="resources/bear.png" id = "bear_icon" onclick = "" >
+
+            
+          <div class="mytooltip">
+
+            <img src="resources/lion.png" id = "lion_icon" onmouseover = "settooltipmetrics('id_tooltip-content_lion','lion_icon');" >
+
+            <span class="tooltip-content " id = "id_tooltip-content_lion"> 
+              <img src="resources/lion.png">
+               <span class="tooltip-text">Lion</span>
+               <span class="tooltip-text2">The lion is a large cat of the genus Panthera native to Africa and India.It has a muscular, deep-chested body...</span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+             </div>
+
+             <div class="mytooltip">
+
+              <img src="resources/tiger.png" id = "tiger_icon" onmouseover = "settooltipmetrics('id_tooltip-content_tiger','tiger_icon');" >
+  
+              <span class="tooltip-content " id = "id_tooltip-content_tiger"> 
+                <img src="resources/tiger.png">
+                 <span class="tooltip-text">Tiger</span>
+                 <span class="tooltip-text2">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most ...</span> 
+                 <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                
+               </span> 
+               </div>
+
+               <div class="mytooltip">
+
+                <img src="resources/leopard.png" id = "leopard_icon" onmouseover = "settooltipmetrics('id_tooltip-content_leopard','leopard_icon');" >
+    
+                <span class="tooltip-content " id = "id_tooltip-content_leopard"> 
+                  <img src="resources/leopard.png">
+                   <span class="tooltip-text">Leopard</span>
+                   <span class="tooltip-text2">The leopard is one of the five extant species in the genus Panthera, a member of the cat family, Felidae....</span> 
+                   <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                  
+                 </span> 
+                 </div>
+
+                 <div class="mytooltip">
+
+                  <img src="resources/deer.png" id = "deer_icon" onmouseover = "settooltipmetrics('id_tooltip-content_deer','deer_icon');" >
+      
+                  <span class="tooltip-content " id = "id_tooltip-content_deer"> 
+                    <img src="resources/deer.png">
+                     <span class="tooltip-text">Deer</span>
+                     <span class="tooltip-text2">Deer or true deer are hoofed ruminant mammals forming the family Cervidae....</span> 
+                     <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                    
+                   </span> 
+                   </div>
+            
+                   <div class="mytooltip">
+
+                    <img src="resources/bear.png" id = "bear_icon" onmouseover = "settooltipmetrics('id_tooltip-content_bear','bear_icon');" >
+        
+                    <span class="tooltip-content " id = "id_tooltip-content_bear"> 
+                      <img src="resources/bear.png">
+                       <span class="tooltip-text">Bear</span>
+                       <span class="tooltip-text2">Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms...</span> 
+                       <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                      
+                     </span> 
+                     </div>
+            
+                     <div class="mytooltip">
+
+                      <img src="resources/hippo.png" id = "hippo_icon" onmouseover = "settooltipmetrics('id_tooltip-content_hippo','hippo_icon');" >
+          
+                      <span class="tooltip-content " id = "id_tooltip-content_hippo"> 
+                        <img src="resources/hippo.png">
+                         <span class="tooltip-text">Hippopotamus</span>
+                         <span class="tooltip-text2">The hippopotamus, also called the hippo, common hippopotamus or river hippopotamus...</span> 
+                         <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                        
+                       </span> 
+                       </div>
+            
             <img src="resources/hippo.png" id = "hippo_icon" onclick = "" >
             </div>
 
@@ -179,11 +254,94 @@
             <div id="birdcirclediv"></div>
 
             <img src="resources/close_btn.png" id = "bird_close_button" onclick = "bird_closeall();" >
-            <img src="resources/hornbill.png" id = "bird1_icon" onclick = "" >
-            <img src="resources/cerulean_warbler.png" id = "bird2_icon" onclick = "" >
-            <img src="resources/parrot_bill.png" id = "bird3_icon" onclick = "" >
-            <img src="resources/blackbacked_woodpecker-modified.png" id = "bird4_icon" onclick = "" >
-            <img src="resources/scarlet_tanager.png" id = "bird5_icon" onclick = "" >
+
+            <div class="mytooltip">
+              <img src="resources/hornbill.png" id = "bird1_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_hornbill','bird1_icon');" >
+              
+              <span class="tooltip-content " id="id_tooltip-content_hornbill"> 
+                <img src="resources/hornbill.png">
+                 <span class="tooltip-text">Hornbill</span>
+                 <span class="tooltip-text2">Hornbills are a family of bird found in tropical and subtropical Africa, Asia and Melanesia....</span> 
+                 <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                
+               </span> 
+              
+  
+              </div>
+
+              <div class="mytooltip">
+                <img src="resources/cerulean_warbler.png" id = "bird2_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_cerulean','bird2_icon');" >
+                
+                <span class="tooltip-content " id="id_tooltip-content_cerulean"> 
+                  <img src="resources/cerulean_warbler.png">
+                   <span class="tooltip-text">Cerulean Warbler</span>
+                   <span class="tooltip-text2">The cerulean warbler is a small songbird of the New World warbler family....</span> 
+                   <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                  
+                 </span> 
+                
+    
+                </div>
+
+                <div class="mytooltip">
+                  <img src="resources/parrot_bill.png" id = "bird3_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_parrot','bird3_icon');" >
+                  
+                  <span class="tooltip-content " id="id_tooltip-content_parrot"> 
+                    <img src="resources/parrot_bill.png">
+                     <span class="tooltip-text">Parrot Bill</span>
+                     <span class="tooltip-text2">The parrotbills are a group of peculiar birds native to East and Southeast Asia...</span> 
+                     <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                    
+                   </span> 
+                  
+      
+                  </div>
+
+                  <div class="mytooltip">
+                    <img src="resources/blackbacked_woodpecker-modified.png" id = "bird4_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_woodpecker','bird4_icon');" >
+                    
+                    <span class="tooltip-content " id="id_tooltip-content_woodpecker"> 
+                      <img src="resources/blackbacked_woodpecker-modified.png">
+                       <span class="tooltip-text">Black Woodpecker</span>
+                       <span class="tooltip-text2">The black-backed woodpecker, also known as the Arctic three-toed woodpecker...</span> 
+                       <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                      
+                     </span> 
+                    
+        
+                    </div>
+
+                    
+                  <div class="mytooltip">
+                    <img src="resources/scarlet_tanager.png" id = "bird5_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_scarlet','bird5_icon');" >
+                    
+                    <span class="tooltip-content " id="id_tooltip-content_scarlet"> 
+                      <img src="resources/scarlet_tanager.png">
+                       <span class="tooltip-text">Scarlet Tanager</span>
+                       <span class="tooltip-text2">The scarlet tanager is a medium-sized American songbird. Until recently, it was placed...</span> 
+                       <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                      
+                     </span> 
+                    
+        
+                    </div>
+            
+                    <div class="mytooltip">
+                      <img src="resources/ruffed_grouse.png" id = "bird6_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_grouse','bird6_icon');" >
+                      
+                      <span class="tooltip-content " id="id_tooltip-content_grouse"> 
+                        <img src="resources/ruffed_grouse.png">
+                         <span class="tooltip-text">Ruffed Grouse</span>
+                         <span class="tooltip-text2">The ruffed grouse is a medium-sized grouse occurring in forests from the Appalachian Mountains...</span> 
+                         <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                        
+                       </span> 
+                      
+          
+                      </div>
+            
+           
+            
             <img src="resources/ruffed_grouse.png" id = "bird6_icon" onclick = "" >
             </div>
         </div>  
@@ -247,6 +405,20 @@
                   document.getElementById(id_tooltip_content).style.left= left;
                  
                
+                }
+
+                function settooltipmetrics_bird(id_tooltip_content, id_img) {
+
+                var element = document.getElementById(id_img),
+                style = window.getComputedStyle(element),
+                top = style.getPropertyValue('top'),
+                left = style.getPropertyValue('left');
+
+
+                document.getElementById(id_tooltip_content).style.top= top;
+                document.getElementById(id_tooltip_content).style.left= "0%" ;
+
+
                 }
 
                 
