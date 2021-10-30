@@ -12,6 +12,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Zen+Kurenaido&display=swap" rel="stylesheet">
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,18 +56,122 @@
             
 
             <div class="parentdiv_plant column col-sm-8 col-md-8 col-lg-4 ">
+              
             <img src="resources/plant_loading.png" id = "my_plant_rotate" onclick = "circle_plant();"  >
             <img src="resources/plant_button.png" id = "my_plant_button" onclick = "circle_plant();"  >
             <div id="plantcirclediv"></div>
 
             <img src="resources/close_btn.png" id = "plant_close_button" onclick = "plant_closeall();" >
-            <img src="resources/bunchberry.png" id = "plant1_icon" onclick = "" >
-            <img src="resources/trillium.png" id = "plant2_icon" onclick = "" >
-            <img src="resources/hepatica.png" id = "plant3_icon" onclick = "" >
-            <img src="resources/rowan.png" id = "plant4_icon" onclick = "" >
-            <img src="resources/flytraps.png" id = "plant5_icon" onclick = "" >
-            <img src="resources/chestnut.png" id = "plant6_icon" onclick = "" >
+            
+            
+            
+            
+            
+          
+
+          <div class="mytooltip">
+
+            <img src="resources/bunchberry.png" id = "plant1_icon" onmouseover = "settooltipmetrics('id_tooltip-content_bunchberry','plant1_icon');" >
+
+            <span class="tooltip-content " id = "id_tooltip-content_bunchberry"> 
+              <img src="resources/bunchberry.png">
+               <span class="tooltip-text">bunchberry</span>
+               <span class="tooltip-text2">Among the smallest of a genus of mostly shrubs and trees, Bunchberry makes an excellent ground cover in the moist...</span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+             </div>
+
+         
+
+          <div class="mytooltip">
+
+            <img src="resources/trillium.png" id = "plant2_icon" onmouseover = "settooltipmetrics('id_tooltip-content_trillium','plant2_icon');" >
+
+            <span class="tooltip-content " id="id_tooltip-content_trillium"> 
+              <img src="resources/trillium.png">
+               <span class="tooltip-text">Trillium</span>
+               <span class="tooltip-text2">Trillium is a genus of about fifty flowering plant species in the family Melanthiaceae...</span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+             </div>
+
+          <div class="mytooltip">
+
+            <img src="resources/hepatica.png" id = "plant3_icon" onmouseover = "settooltipmetrics('id_tooltip-content_hepatica','plant3_icon');" >
+
+            <span class="tooltip-content " id="id_tooltip-content_hepatica"> 
+              <img src="resources/hepatica.png">
+               <span class="tooltip-text">Hepatica</span>
+               <span class="tooltip-text2">Hepatica is a genus in the buttercup family (Ranunculaceae) native to the Northern Hemisphere...</span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+             </div>
+
+          <div class="mytooltip">
+
+            <img src="resources/rowan.png" id = "plant4_icon" onmouseover = "settooltipmetrics('id_tooltip-content_rowan','plant4_icon');" >
+
+            <span class="tooltip-content " id="id_tooltip-content_rowan"> 
+              <img src="resources/rowan.png">
+               <span class="tooltip-text">Rowan</span>
+               <span class="tooltip-text2">Rowans are mostly small deciduous trees 10–20 m tall, though a few are shrubs... </span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+             </div>
+
+          
+            <div class="mytooltip">
+
+              <img src="resources/flytraps.png" id = "plant5_icon" onmouseover = "settooltipmetrics('id_tooltip-content_flytraps','plant5_icon');" >
+
+              <span class="tooltip-content " id="id_tooltip-content_flytraps"> 
+                <img src="resources/Flytraps.png">
+                 <span class="tooltip-text">Flytraps</span>
+                 <span class="tooltip-text2">The Venus flytrap (Dionaea muscipula) is a carnivorous plant native to subtropical wetlands on the East Coast..</span> 
+                 <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                
+               </span> 
+               </div>
+
+               <div class="mytooltip">
+            <img src="resources/chestnut.png" id = "plant6_icon" onmouseover = "settooltipmetrics('id_tooltip-content_chestnut','plant6_icon');" >
+            
+            <span class="tooltip-content " id="id_tooltip-content_chestnut"> 
+              <img src="resources/chestnut.png">
+               <span class="tooltip-text">Chestnut</span>
+               <span class="tooltip-text2">The chestnuts are the deciduous trees and shrubs in the genus Castanea, in the beech family Fagaceae...</span> 
+               <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+              
+             </span> 
+            
+
             </div>
+          </div>
+
+           
+            <!--<div class="row mt-100" id="row_container">
+              <div class="col-md-8" id="column_container">
+                  
+                          
+                            <span class="mytooltip tooltip-effect-1" id="my_tooltip"> 
+                              <span class="tooltip-item"><img src="resources/chestnut.png" id = "plant6_icon1" onclick = "" > </span> 
+                              <span class="tooltip-content clearfix"> 
+                               <img src="resources/rowan.png">
+                                <span class="tooltip-text">Rowan</span>
+                                <span class="tooltip-text2">This is a description about Rowan. The description is getting larger. The description is getting even larger</span> 
+                                <span class="tooltip-text3"> <a href="">Click here for more..</a> </span>
+                              </span> 
+                           
+                      
+              </div>
+          </div> -->
+
+
+            
 
             <div class="parentdiv_bird column col-sm-8 col-md-8 col-lg-4 ">
             <img src="resources/birds_loading.png" id = "my_bird_rotate" onclick = "circle_bird();"  >
@@ -79,16 +187,17 @@
             <img src="resources/ruffed_grouse.png" id = "bird6_icon" onclick = "" >
             </div>
         </div>  
-
+        
         
         <div class="row">
             <div class = "soundcontroldiv col-sm-1 col-md-2 col-lg-2">
               
                     <img src="resources/silent.png" class = "silent" id = "my_muteaudio2" onclick = "pause();"/>
-                
-                    <img src="resources/play.png" class = "play" id = "my_audio2" onclick = "play();" />    -->
+                    <img src="resources/play.png" class = "play" id = "my_audio2" onclick = "play();" /> 
+                       
                
-
+                   
+                 
             
             </div>  
         </div>
@@ -125,6 +234,25 @@
                  document.getElementById("my_muteaudio2").style.visibility = "hidden";
                
                 }
+
+                function settooltipmetrics(id_tooltip_content, id_img) {
+
+                  var element = document.getElementById(id_img),
+                      style = window.getComputedStyle(element),
+                      top = style.getPropertyValue('top'),
+                      left = style.getPropertyValue('left');
+
+                 
+                  document.getElementById(id_tooltip_content).style.top= top;
+                  document.getElementById(id_tooltip_content).style.left= left;
+                 
+               
+                }
+
+                
+
+               
+
 
                 function animal_closeall() {
                  
