@@ -4,14 +4,13 @@
     body, html {
         background-image: url("resources/android_forest.jpg");
       
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
         margin: 0;
         background-attachment: fixed;
         height: 100%;
         overflow-y: auto;
-        position: relative;
         background-position: center top;
         background-repeat: no-repeat;
     }
