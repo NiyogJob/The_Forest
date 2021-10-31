@@ -2,7 +2,7 @@
 
   @media (min-width: 301px) and (max-width: 600px) {
     body, html {
-      background-color: blue;
+        background-image: url("resources/android_forest.jpg");
       
 
     }
