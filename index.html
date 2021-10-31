@@ -265,7 +265,7 @@
 
             <img src="resources/close_btn.png" id = "bird_close_button" onclick = "bird_closeall();" >
 
-            <div class="mytooltip col-sm-8">
+            <div class="mytooltip">
               <img src="resources/hornbill.png" id = "bird1_icon" onmouseover = "settooltipmetrics_bird('id_tooltip-content_hornbill','bird1_icon');" >
               
               <span class="tooltip-content " id="id_tooltip-content_hornbill"> 
@@ -425,7 +425,8 @@
 
                  
                   document.getElementById(id_tooltip_content).style.top= top;
-                  document.getElementById(id_tooltip_content).style.left= left;
+                  document.getElementById(id_tooltip_content).style.left= "8%" ;
+                 // document.getElementById(id_tooltip_content).style.left= left;
                  
                
                 }
@@ -439,7 +440,7 @@
 
 
                 document.getElementById(id_tooltip_content).style.top= top;
-                document.getElementById(id_tooltip_content).style.left= "0%" ;
+                document.getElementById(id_tooltip_content).style.left= "8%" ;
 
 
                 }
