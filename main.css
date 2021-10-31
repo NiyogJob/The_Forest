@@ -39,7 +39,7 @@
 
   .headerdiv{
       position: fixed;
-      z-index: 10000;
+      z-index: 99;
       margin-bottom: 5%;
       margin-top: 2%;
      
@@ -452,7 +452,7 @@ h5 {
 .mytooltip {
    
     
-    z-index: 999;
+    z-index: 97;
     
     
 }
@@ -466,7 +466,7 @@ h5 {
 
 .mytooltip .tooltip-content {
     position: absolute;
-    z-index: 9999;
+    z-index: 98;
     width: 400px;
    
    
@@ -615,9 +615,9 @@ h5 {
   background: rgba(0, 0, 0, .5);
   position: fixed;
   top: 0; left: 0;
-  width: auto;
-  height: auto;
-  z-index: 100;
+  width: 100vw;
+  height: 100vw;
+  z-index: 101;
   cursor: pointer;
   transition: opacity .3s;
 }
@@ -630,7 +630,7 @@ h5 {
   min-height: 300px;
   position: fixed;
   top: 25vh; left: 40%;
-  z-index: 101;
+  z-index: 102;
   transition: opacity .3s;
 
   background-color: white;
@@ -659,7 +659,7 @@ h5 {
   height: 32px;
   opacity: .3;
   cursor: pointer;
-  z-index: 102;
+  z-index: 103;
 }
 
 .popup-close-btn:hover {
