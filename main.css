@@ -587,103 +587,77 @@ h5 {
 
 /* Popup message*/
 
-.pop {
-    position: absolute;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
-    height: 50%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  @media (max-width: 640px) {
-    .pop {
-      position: relative;
-      width: 100%;
-    }
-  }
-  .pop .modal {
-    z-index: 2;
-    opacity: 0;
-    visibility: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: opacity 500ms ease-in-out;
-    transition: opacity 500ms ease-in-out;
-  }
-  .pop .modal__inner {
-    -webkit-transform: translate(-50%, -50%) scale(0.75);
-            transform: translate(-50%, -50%) scale(0.75);
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    background: white;
-    padding: 30px;
-    position: absolute;
-    color: black;
-  }
-  
-  /* Close Button */
-  .btn-close{
-      color: #fff;
-      text-align: center;
-  }
-  
-  
-  
-  @media (max-width: 640px) {
-    .pop .modal__inner {
-      width: 100%;
-    }
-  }
-  .pop label {
-    display: inline-block;
-    cursor: pointer;
-  }
-  .pop label.open {
-    color: turquoise;
-    -webkit-transition: color 200ms ease-in-out;
-    transition: color 200ms ease-in-out;
-    text-decoration: underline;
-  }
-  .pop label.open:hover {
-    color: paleturquoise;
-  }
-  .pop input {
-    display: none;
-  }
-  .pop input:checked + .modal {
-    opacity: 1;
-    visibility: visible;
-  }
-  .pop input:checked + .modal .modal__inner {
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-  }
-  .pop input:checked + .modal .modal__inner p {
-    font-size: 1.25rem;
-    line-height: 125%;
-  }
-  .pop input:checked + .modal label {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 30px;
-    width: 30px;
-    background: #666666;
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-  }
-  .pop input:checked + .modal label:hover {
-    background: #333333;
-  }
+
+.overlay {
+  display: none;
+  opacity: 0;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 100;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.popup {
+  display: none;
+  opacity: 0;
+  width: 50vh; height: 50vh;
+  min-width: 300px;
+  min-height: 300px;
+  position: fixed;
+  top: 25vh; left: 40%;
+  z-index: 101;
+  transition: opacity .3s;
+
+  background-color: white;
+  padding: 60px 20px 40px;
+  border-radius: 6px;
+}
+
+.open {
+  display: block;
+  opacity: 1;
+}
+
+/* Popup content */
+
+.for-call-popup {
+  display: none;
+}
+
+/* Closing button inside popup */
+
+.popup-close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  opacity: .3;
+  cursor: pointer;
+  z-index: 102;
+}
+
+.popup-close-btn:hover {
+  opacity: 1;
+}
+
+.popup-close-btn:before, .popup-close-btn:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+
+.popup-close-btn:before {
+  transform: rotate(45deg);
+}
+
+.popup-close-btn:after {
+  transform: rotate(-45deg);
+}
