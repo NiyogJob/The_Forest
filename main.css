@@ -1,18 +1,26 @@
-body:before {
+body, html {
     
   
-    /* The image used*/
+    /* The image used */
     background-image: url("resources/background.jpg");
   
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin: 0;
     background-attachment: fixed;
     max-width: 100%;
  
+    
+
    
-   
+  }
+
+  @media (min-width: 301px) and (max-width: 600px) {
+    body, html {
+      background-color: blue;
+      
+    }
   }
 
   
