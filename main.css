@@ -1,7 +1,7 @@
 body:before {
     
   
-    /* The image used
+    /* The image used*/
     background-image: url("resources/background.jpg");
   
     -webkit-background-size: auto;
@@ -10,20 +10,7 @@ body:before {
     margin: 0;
     background-attachment: fixed;
     max-width: 100%;
-  */
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url("resources/background.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ 
    
    
   }
