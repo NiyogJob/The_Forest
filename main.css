@@ -1,6 +1,17 @@
-body, html {
-    
-  
+
+
+  @media (min-width: 301px) and (max-width: 600px) {
+    body, html {
+      background-color: blue;
+      
+
+    }
+  }
+
+  @media (min-width: 601px) {
+    body, html {
+      
+      
     /* The image used */
     background-image: url("resources/background.jpg");
   
@@ -10,15 +21,6 @@ body, html {
     margin: 0;
     background-attachment: fixed;
     max-width: 100%;
- 
-    
-
-   
-  }
-
-  @media (min-width: 301px) and (max-width: 600px) {
-    body, html {
-      background-color: blue;
       
     }
   }
