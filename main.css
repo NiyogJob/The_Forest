@@ -608,7 +608,38 @@ h5 {
 
 /* Popup message*/
 
+@media (min-width: 301px) and (max-width: 600px) {
+    .overlay {
+        display: none;
+        opacity: 0;
+        background: rgba(0, 0, 0, .5);
+        position: fixed;
+        top: 0; left: 0;
+        width: 100vw;
+        height: 200vw;
+        z-index: 101;
+        cursor: pointer;
+        transition: opacity .3s;
+      }
+      
+      .popup {
+          display: none;
+          opacity: 0;
+          width: 25vh; height: 50vh;
+          min-width: 150px;
+          min-height: 300px;
+          position: fixed;
+          top: 25vh; left:5%;
+          z-index: 102;
+          transition: opacity .3s;
+        
+          background-color: white;
+          padding: 5px 5px 5px;
+          border-radius: 6px;
+        }
+}
 
+@media (min-width: 601px) {
 .overlay {
   display: none;
   opacity: 0;
@@ -621,27 +652,31 @@ h5 {
   cursor: pointer;
   transition: opacity .3s;
 }
+
+.popup {
+    display: none;
+    opacity: 0;
+    width: 50vh; height: 50vh;
+    min-width: 300px;
+    min-height: 300px;
+    position: fixed;
+    top: 25vh; left: 40%;
+    z-index: 102;
+    transition: opacity .3s;
+  
+    background-color: white;
+    padding: 60px 20px 40px;
+    border-radius: 6px;
+  }
+
+}
 label{
 
     text-decoration: underline;
     color: blue;
 }
 
-.popup {
-  display: none;
-  opacity: 0;
-  width: 50vh; height: 50vh;
-  min-width: 300px;
-  min-height: 300px;
-  position: fixed;
-  top: 25vh; left: 40%;
-  z-index: 102;
-  transition: opacity .3s;
 
-  background-color: white;
-  padding: 60px 20px 40px;
-  border-radius: 6px;
-}
 
 .open {
   display: block;
@@ -687,3 +722,4 @@ label{
 .popup-close-btn:after {
   transform: rotate(-45deg);
 }
+
