@@ -11,6 +11,9 @@
         background-attachment: fixed;
         height: 100%;
         overflow-y: auto;
+        position: relative;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
   }
 
@@ -27,9 +30,7 @@
     margin: 0;
     background-attachment: fixed;
     max-width: 100%;
-    position: relative;
-    background-position: center top;
-    background-repeat: no-repeat;
+   
       
     }
   }
@@ -91,7 +92,7 @@
     }
     #butterfly_many{
         position: absolute;
-        width: 200%;
+        width: 200px;
     }
 
   #butterfly_moving{
