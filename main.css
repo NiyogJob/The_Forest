@@ -416,17 +416,28 @@ vertical-align: middle;
 
 #popup_div1{
     position: relative;
+    
 }
 
-.description_short{
+.item_image{
+    float: left;
+    padding-right: 2%;
+    padding-bottom: 1%;
     
-    position: absolute;
-   
+}
+
+.item_header{
+
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+
 }
 
 .description_div{
     
-    position: absolute;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
    
 }
 
