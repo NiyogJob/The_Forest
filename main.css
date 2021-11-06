@@ -744,6 +744,64 @@ h5 {
     
   }
 
+
+  .for-call-popup_plant_1 {
+    display: none;
+    
+  }
+  
+  .for-call-popup_plant_2 {
+      display: none;
+      
+    }
+  
+    .for-call-popup_plant_3 {
+      display: none;
+      
+    }
+  
+    .for-call-popup_plant_4 {
+      display: none;
+      
+    }
+    .for-call-popup_plant_5 {
+      display: none;
+      
+    }
+  
+    .for-call-popup_plant_6 {
+      display: none;
+      
+    }
+
+    .for-call-popup_bird_1 {
+        display: none;
+        
+      }
+
+    .for-call-popup_bird_2 {
+        display: none;
+        
+      }
+    
+      .for-call-popup_bird_3 {
+        display: none;
+        
+      }
+    
+      .for-call-popup_bird_4 {
+        display: none;
+        
+      }
+      .for-call-popup_bird_5 {
+        display: none;
+        
+      }
+    
+      .for-call-popup_bird_6 {
+        display: none;
+        
+      }
 /* Closing button inside popup */
 
 .popup-close-btn {
