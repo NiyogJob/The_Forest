@@ -423,6 +423,7 @@ vertical-align: middle;
     float: left;
     padding-right: 2%;
     padding-bottom: 1%;
+    width: 20%;
     
 }
 
@@ -714,10 +715,34 @@ h5 {
 
 /* Popup content */
 
-.for-call-popup {
+.for-call-popup_animal_1 {
   display: none;
   
 }
+
+.for-call-popup_animal_2 {
+    display: none;
+    
+  }
+
+  .for-call-popup_animal_3 {
+    display: none;
+    
+  }
+
+  .for-call-popup_animal_4 {
+    display: none;
+    
+  }
+  .for-call-popup_animal_5 {
+    display: none;
+    
+  }
+
+  .for-call-popup_animal_6 {
+    display: none;
+    
+  }
 
 /* Closing button inside popup */
 
